@@ -9,10 +9,18 @@ class My_math:
 
     def addition(self, x ,y):
         print(x + y)
+    
+    def division(self, x, y):
+        print(x/y)
+
 
 
 m = My_math()
 m.factoriel(5)
 m.addition(5,5)
+m.division(10, 5)
+
+
+
         
         
