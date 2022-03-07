@@ -1,19 +1,18 @@
 class My_math:
-    def __init__(self, x):
-        self.x = x
-        #self.y = y
-
-    def factoriel(self):
+    
+    def factoriel(self, x):
     
         fact = 1 
-        for i in range(1, self.x + 1):
+        for i in range(1, x + 1):
             fact *= i
         print(fact)
 
+    def addition(self, x ,y):
+        print(x + y)
 
 
-
-m = My_math(5)
-m.factoriel()
+m = My_math()
+m.factoriel(5)
+m.addition(5,5)
         
         
