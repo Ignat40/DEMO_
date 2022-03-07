@@ -13,12 +13,16 @@ class My_math:
     def division(self, x, y):
         print(x/y)
 
+    def sub(self, x , y):
+        print(x - y)
+
 
 
 m = My_math()
 m.factoriel(5)
 m.addition(5,5)
 m.division(10, 5)
+m.sub(19, 7)
 
 
 
